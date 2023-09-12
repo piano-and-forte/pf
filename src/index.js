@@ -28,7 +28,7 @@ root.render(
         <Route path="/" element={<Headers />}>
           <Route index element={<Home />} />
           <Route path="appointmentList" element={<AppointmentList />} />
-          <Route path="piano-and-forte" element={<Home />} />
+          <Route path="pf" element={<Home />} />
           <Route path="appointment" element={<Appointment/>} />
           <Route path="signIn" element={<SignIn />} />
           <Route path="logOut" element={<LogOut/>} />

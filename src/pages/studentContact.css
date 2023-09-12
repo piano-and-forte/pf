@@ -1,0 +1,49 @@
+
+
+.student-contact-container {
+    width: 40%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.input-container {
+    position: relative;
+}
+.input-container input {
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+
+    font-size: 14px;
+    height: 40px;
+    width: 100%;
+}
+
+.input-container .placeholder {
+    position: absolute;
+    left: 5px;
+    top: 15px;
+
+    font-size: 25px;
+    pointer-events: none;
+    transition: 0.1s ease all;
+}
+
+.input-container input:focus ~ .placeholder {
+
+    top: 9px;
+    font-size: 9px;
+}
+
+.input-placeholder-onblur {
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    font-size: 9px;
+}
+
+.student-contact-container button {
+    margin-top: 30px;
+}

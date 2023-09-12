@@ -1,0 +1,35 @@
+
+
+.sign-in-container {
+    background-color: lightgrey;
+    margin: 20px auto;
+    width: 30%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+
+    padding: 30px;
+}
+
+.wrong-username-or-password {
+    background-color:darksalmon;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    background-color: lightseagreen;
+    margin-top: 10px;
+}
+
+.login-with-google-button {
+    background-color: #4285f4;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.login-input {
+    margin-top: 10px;
+}

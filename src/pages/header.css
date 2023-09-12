@@ -1,0 +1,35 @@
+
+.header-menu-bar-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+}
+
+.header-menu-bar-container .link {
+    color: blue;
+    position: relative;
+    top: 75px;
+    text-decoration: none;
+    margin-right: 10px;
+    height: 25px;
+}
+
+
+.header-menu-bar-container .signIn {
+    left: 35px;
+    background-color: #04AA6D;
+    padding: 8px 15px;
+    border-radius: 25px;
+    z-index: 2;
+
+}
+.header-menu-bar-container .signUp {
+    background-color: #D9EEE1;
+    padding: 8px 4px 8px 25px;
+    border-radius: 25px;
+}
+.header-menu-bar-container .signUp:hover {
+    background-color:#04AA6D;
+}
+
+

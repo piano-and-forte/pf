@@ -1,0 +1,47 @@
+
+.create-user-container {
+    width: 40%;
+    margin: 20px auto;
+    background-color:lightgrey;
+    display: flex;
+    flex-direction:column;
+
+    padding: 5px 15px;
+}
+
+.create-button {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background: #1c87c9;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.registration-input {
+    display: flex;
+    margin-top: 10px;
+}
+.registration-label {
+    width: 20px;
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+    background-color: #1c87c9;
+    padding: 5px;
+}
+
+.input-field {
+    border-radius: 0 5px 5px 0;
+    width: calc(100% - 20px);
+    outline: none;
+    border: 1px solid rgba(240,240,240, 0.9);
+}
+
+.signup-icon {
+    text-align: center;
+    font-size: 40px;
+    color: #4286f4;
+}

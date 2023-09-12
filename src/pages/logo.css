@@ -1,0 +1,53 @@
+
+.logo-wrapper {
+    display: flex;
+}
+
+.circle1 {
+    height: 100px;
+    width: 100px;
+    border: 20px solid green;
+    border-radius: 100px;
+    position: relative;
+}
+
+.circle1:after {
+    content: "";
+    position: absolute; 
+    border-top: 100px solid transparent;
+    border-left: 140px solid white;
+    left: -50px;
+    top: -35px;
+}
+
+.circle2 {
+    height: 100px;
+    width: 100px;
+    border: 20px solid green;
+    border-radius: 100px;
+    position: relative;
+}
+
+.circle2::after {
+    content: "";
+    position: absolute;
+    border-top: 100px solid transparent;
+    border-right: 140px solid white;
+    top: -35px;
+    right: -50px;
+}
+
+/* Now add square onto the logo using before pseudo-element (
+    we are not using after (psedo-element) because we already
+    used it for creating triangle
+) */
+.circle1::before {
+    content: "";
+    height: 20px;
+    width: 276px;
+    position: absolute;
+    background: green;
+    left: -18px;
+    top: 45px;
+    z-index: 1;
+}

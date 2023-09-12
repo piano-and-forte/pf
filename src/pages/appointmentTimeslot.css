@@ -1,0 +1,95 @@
+
+
+.appointment-timeslot-container {
+    margin: 25px 1px;
+    grid-column: 1 / span 6;
+    grid-row: 5;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.appointment-timeslot-previous {
+    grid-column: 1;
+    grid-row: 1;
+    cursor: pointer;
+}
+
+.appointment-timeslot-firstdate {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.appointment-timeslot-seconddate {
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    text-align: center;
+}
+
+
+.appointment-timeslot-thirddate {
+    grid-column: 5;
+    grid-row: 1;
+    text-align: right;
+}
+
+.appointment-timeslot-next {
+    grid-column: 6; 
+    grid-row: 1;
+    cursor: pointer;
+    text-align: right;
+}
+
+.right-align {
+    text-align: right;
+    margin-top: 15px;
+}
+.left-align {
+    text-align: left;
+    margin-top: 15px;
+}
+.each-timeslot {
+    margin: 10px;
+}
+
+.appointment-timeslot-firstdate-am {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.appointment-timeslot-firstdate-pm {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.appointment-timeslot-seconddate-am {
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.appointment-timeslot-seconddate-pm {
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.appointment-timeslot-thirddate-am {
+    grid-column: 5;
+    grid-row: 6;
+}
+
+.appointment-timeslot-thirddate-pm {
+    grid-column: 6;
+    grid-row: 6;
+}
+
+.appointment-timeslot-next-button-link {
+    grid-column: 5;
+    grid-row: 7;
+}
+
+.appointment-timeslot-next-button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: red;
+
+}

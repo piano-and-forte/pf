@@ -1,0 +1,18 @@
+
+.home-container{
+    /* background: url(../../public/home-background.jpg); */
+    background-color:aliceblue;
+
+    height: 100vw;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.home-left-panel {
+    grid-column: 1;
+    grid-row: auto;
+}
+
+.home-right-panel {
+    grid-column: 2;
+    grid-row: auto;
+}
